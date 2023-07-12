@@ -1,6 +1,7 @@
 import whisper
 import os
 import sys
+import time
 
 stdout_fileno = sys.stdout
 
@@ -17,5 +18,8 @@ for file_name in os.listdir():
 
 sys.stdout.close()
 sys.stdout = stdout_fileno
+
+print("Human! I have completed the task!")
+time.sleep(15)
 
 
