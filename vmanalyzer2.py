@@ -14,7 +14,7 @@ def whisper_Now():
         if file_name.endswith('.wav'):
             audio = whisper.load_audio(file_name)
             result = model.transcribe(audio)
-            output_text += result['text'] + '\n'
+            output_text += file_name + '\n' + result['text'] + '\n' +'\n'
     return output_text
 
 #function to count the number of .wav files in the current directory
