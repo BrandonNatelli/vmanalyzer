@@ -32,3 +32,10 @@ Pillow:
 Open an elevated command prompt or PowerShell, then copy and paste the following and hit enter to run:
 pip install pillow
 
+How to Use vmanalyzer and vmanalyzer2:
+On the main github page https://github.com/BrandonNatelli/vmanalyzer click on the green 'code' button then select 'Download ZIP.'
+Select your preferred download location and complete the brower prompt to download.
+Navigate to the file you downloaded the zip to. Unzip the folder into a location that you prefer.
+
+How to Use vmanalyzer2:
+Place the voicemail .wav files into the same folder that vmanalyzer2 is located. Open vmanalyzer2 and follow the prompts on the winodw that opens.
