@@ -53,7 +53,7 @@ window.geometry("750x500")
 label = tk.Label(window, text="Greetings Human!")
 label.pack()
 
-label2 = tk.Label(window, text = 'Human! Do you want to know how many voicemails are in the file?')
+label2 = tk.Label(window, text = 'Human! Do you want to know how many voicemails are in the folder?')
 label2.pack()
 
 button1 = tk.Button(window, text="Click Me!", command=button_click1)
